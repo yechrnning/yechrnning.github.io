@@ -1,9 +1,58 @@
 <!DOCTYPE html>
-<html>
 <head>
-	<title>My Website</title>
+    <title>stemstar</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(0, 255, 89);
+            font-size: large;
+        }
+        header{
+            font-size: xx-large;
+            background-color: aquamarine;
+            text-align: center;
+            color: goldenrod;
+        }
+        nav {
+            background-color: orangered;
+        }
+        nav a:hover{
+            background-color: aliceblue;
+        }
+        section{
+            margin: 20px;
+            background-color: rgb(255, 187, 127);
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-	<h1>hello world</h1>  
+    <header>
+        <h1>welcome to the 北大</h1>
+        <p>努力读书</p>
+    </header>
+    <nav>
+        <!--导航栏-->
+        <a href="#login">加油上学</a>
+        <a href="#fate">读书加1</a>
+    </nav>
+    <main>
+        <section id="login">
+            <a href="https://www.pku.edu.cn/">跳转</a>
+        </section>
+        <section id="fate">
+            <h2>今天事宜</h2>
+            <P>干嘛</P>
+            <ul>
+                <li>上课</li>
+                <li>还课</li>
+                <li>读书</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;牛蛙星球无限校园 版权没有</p>
+    </footer>
 </body>
-</html>
